@@ -1,0 +1,2 @@
+include mailinglogger/flood_template.txt
+include mailinglogger/version.txt
