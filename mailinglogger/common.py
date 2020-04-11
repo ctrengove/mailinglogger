@@ -1,4 +1,7 @@
-from cgi import escape
+try:
+    from html import escape
+except ImportError:
+    from cgi import escape
 from logging import Formatter
 from socket import gethostname
 
